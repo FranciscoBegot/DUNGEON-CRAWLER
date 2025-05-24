@@ -1,10 +1,13 @@
 # 🧭 Dungeon Crawler - Aventura em Texto
-🧩 Sobre o Jogo
+
+# 🧩 Sobre o Jogo
+
 Dungeon Crawler é um jogo de aventura em estilo texto/puzzle desenvolvido em linguagem C, onde o jogador deve explorar mapas, interagir com elementos do cenário, resolver desafios e escapar das fases para vencer.
 
 Inspirado em jogos clássicos como Colossal Cave Adventure, este jogo mistura exploração, raciocínio lógico e estratégia com mapas recheados de monstros, armadilhas e surpresas.
 
-🎯 Objetivo do Jogo
+# 🎯 Objetivo do Jogo
+
 O objetivo principal é completar as três fases do jogo, enfrentando armadilhas, monstros e desafios. Para isso, o jogador precisa:
 
 Coletar a chave (@)
@@ -19,7 +22,8 @@ Usar teletransportes estrategicamente
 
 O jogador perde se for derrotado 3 vezes em uma fase.
 
-🎮 Como Jogar
+# 🎮 Como Jogar
+
 Comandos:
 Tecla	Ação
 W	Move para cima
@@ -29,7 +33,8 @@ D	Move para a direita
 i	Interage com objeto ou NPC
 q	Sai do jogo atual e volta ao menu
 
-🗺️ Elementos do Jogo
+# 🗺️ Elementos do Jogo
+
 Símbolo	Significado
 &	Jogador
 P	NPC (oferece dicas e tutoriais)
@@ -43,7 +48,8 @@ O	Botão (efeitos diversos, definidos pela equipe)
 X	Monstro Nível 1 (movimento aleatório)
 V	Monstro Nível 2 (segue o jogador com IA simples)
 
-🌆 Telas do Jogo
+# 🌆 Telas do Jogo
+
 Menu Principal: Início do jogo com opções Jogar, Créditos, Sair
 
 Créditos: Nomes dos desenvolvedores
@@ -56,7 +62,8 @@ Vitória: Tela exibida ao completar todas as fases
 
 Derrota: Tela exibida ao perder uma fase 3 vezes
 
-💡 Funcionalidades Implementadas
+# 💡 Funcionalidades Implementadas
+
 ✅ Movimentação do jogador com teclas WASD
 
 ✅ Interação com NPCs e objetos com i
@@ -79,7 +86,8 @@ Derrota: Tela exibida ao perder uma fase 3 vezes
 
 ✅ Compatível com terminal Linux
 
-🛠️ Tecnologias Utilizadas
+# 🛠️ Tecnologias Utilizadas
+
 Linguagem C
 
 Terminal Linux (uso de getch com termios)
@@ -88,11 +96,17 @@ Editor: VSCode / Code::Blocks / Vim (especificar o seu)
 
 Sistema Operacional: Ubuntu / Windows com WSL
 
-👥 Equipe de Desenvolvimento
+# 👥 Equipe de Desenvolvimento
 Francisco Begot
 
 Adisson Pires
 
-Apoliano
+Apoliano Neto
 
 Projeto desenvolvido para a disciplina de Algoritmos e Programação com o objetivo de aplicar lógica, estrutura de dados e resolução de problemas.
+
+# Tecnologias e ferramentas de pesquisa usadas:
+
+Chatgpt: com o finco de aprimorar melhor no entendimento da nossa lógica, utilizamos da IA OPENAI para aprimorar em certos pontos que travamos. Perguntas como: "Como posso implementar uma movimentação automática" e "como posso fazer com que a chave nao desapareça quando eu passo nela" são exemplos de como utilizamos dessa ferramenta.
+
+StackOverflow: Site de respostas para diversas perguntas envolvendo tecnologia. Principal Forúm de pesquisa utilizado no nosso projeto para o melhor entendimento de ponteiros e estruturas na hora de declarar variáveis.
